@@ -158,32 +158,7 @@
        \else\newpage\fi}
        {\if@restonecol\twocolumn\else\newpage\fi}
 
-% Dedicace
 
-\newenvironment{dedication}
-{\begin{alwayssingle}
-  \pagestyle{empty}
-  \begin{center}
-  \vspace*{1.5cm}
-  {\LARGE }
-  \end{center}
-  \vspace{0.5cm}
-  \begin{quote} \begin{center}}
-{\end{center} \end{quote} \end{alwayssingle}}
-
-
-% Remerciements
-
-\newenvironment{acknowledgements}
-{\pagestyle{empty}
-\begin{alwayssingle}
-\begin{flushleft}
-\vspace*{1.5cm}
-{\Huge \bfseries Remerciements}
-\end{flushleft}
-\vspace{0.5cm}
-\begin{quote}}
-{\end{quote}\end{alwayssingle}}
 
 %Résumé
 
@@ -224,7 +199,7 @@
 {\newpage\renewcommand{\thepage}{\arabic{page}}\setcounter{page}{1}}
 
 
-\newcommand{\FILIERE}{XXXX}
+\newcommand{\FILIERE}{GL}
 
 \newcommand{\ENCt}{}
 \newcommand{\ENCn}{}
@@ -312,7 +287,7 @@
 \hbox{\raisebox{0.4em}{\vrule depth 0pt height 1pt width 17cm}}\setlength{\baselineskip}{20pt}~\\
 {\Large{Institut National des Sciences Appliquées et de Technologie}}\\[\baselineskip]
       UNIVERSITÉ DE CARTHAGE\\[\baselineskip]
-{\Large{\textbf{Projet de Fin d'Études}}}\\[\baselineskip]
+{\Large{\textbf{Projet Conception des Systèmes d'Information}}}\\[\baselineskip]
       
       Filière : \textbf{\uppercase{\FILIERE}}\\[\baselineskip]
       
@@ -320,20 +295,20 @@
 			\setlength{\baselineskip}{4pt}
 			\hbox{\raisebox{0.4em}{\vrule depth 0pt height 1pt width 17cm}}\setlength{\baselineskip}{10pt}~\\
 			\vspace*{-26pt}
-		 	{\Large\textbf{\begin{spacing}{1}Titre du projet\end{spacing}}}~\\[\baselineskip]
+		 	{\Large\textbf{\begin{spacing}{1}Système informatique de domotique\end{spacing}}}~\\[\baselineskip]
 	  	\hbox{\raisebox{0.4em}{\vrule depth 0pt height 1pt width 17cm}}~\\[\baselineskip]
 	  	
 	Présenté par~\\[\baselineskip]
 	      \baselineskip=20pt
 	\AUTEURS \\[\baselineskip] 
 			\begin{tabular}{l@{\protect\hspace{0.2cm}}l@{\protect\hspace{0.7cm}}l}
-				Encadrant INSAT & : &\textbf{\ENCADRANT}\\
-				Encadrant ENTREPRISE & : &\textbf{\ENCADRANTSoc}
+				Encadrant INSAT & : &Me. BOUZID Sonia
+
 			\end{tabular}    	
      	\\[\baselineskip]
       Présenté le : \textbf{\DATE}\\[\baselineskip]
            
-            \JURY
+
             ~\\[\baselineskip]~\\[\baselineskip]
             Année Universitaire : \ANNEEUNIV\\
 \end{center}
@@ -377,64 +352,6 @@
 \renewcommand{\ANNEEUNIV}{#1}
 }
 
-
-
-\newcommand{\Encadrant}[3]{
-\renewcommand{\ENCt}{#1}
-\renewcommand{\ENCn}{#2}
-\renewcommand{\ENCp}{#3}
-}
-
-\newcommand{\EncadrantS}[3]{
-\renewcommand{\ENCSt}{#1}
-\renewcommand{\ENCSn}{#2}
-\renewcommand{\ENCSp}{#3}
-}
-
-% Nom profession Qualite du president du jury
-\newcommand{\President}[2]{%
-\renewcommand{\PRESn}{#1}%
-\renewcommand{\PRESp}{#2}%
-}
-
-% Nom Profession Qualité de l'invité
-\newcommand{\Invite}[3]{%
-\renewcommand{\INVAn}{#1}%
-\renewcommand{\INVAp}{#2}%
-\renewcommand{\INVAq}{#3}%
-}
-
-% Nom Profession Qualite d'un rapporteur A
-\newcommand{\RapporteurA}[2]{%
-\renewcommand{\RAPAn}{#1}%
-\renewcommand{\RAPAp}{#2}%
-}
-% Nom Profession Qualite d'un rapporteur B
-\newcommand{\RapporteurB}[3]{%
-\renewcommand{\RAPBn}{#1}%
-\renewcommand{\RAPBp}{#2}%
-\renewcommand{\RAPBq}{#3}%
-}
-
-%Prenom Nom Qualite d'un examinateur A
-\newcommand{\ExaminateurA}[3]{%
-\renewcommand{\EXAAn}{#1}%
-\renewcommand{\EXAAp}{#2}%
-\renewcommand{\EXAAq}{#3}%
-}
-%Prenom Nom Qualite d'un examinateur B
-\newcommand{\ExaminateurB}[3]{%
-\renewcommand{\EXABn}{#1}%
-\renewcommand{\EXABp}{#2}%
-\renewcommand{\EXABq}{#3}%
-}
-
-%Prenom Nom Qualite d'un examinateur C
-\newcommand{\ExaminateurC}[3]{%
-\renewcommand{\EXACn}{#1}%
-\renewcommand{\EXACp}{#2}%
-\renewcommand{\EXACq}{#3}%
-}
 
 
 \newcommand{\alignquatriemedecouv}{
