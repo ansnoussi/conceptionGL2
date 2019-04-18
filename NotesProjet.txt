@@ -5,3 +5,10 @@ B - spécification des besoins
     c- besoins non fonctionnels (securisé(EXPLICATION DE SECURISÉ !!!!!) , orgonomie présentable ......)
 C- Modélisation (diagrammes UML: use case (tres important pour chaque acteur))
 D- Réalisation (serveur / technologies ....)
+
+
+
+
+https://papeeria.com
+anis0snoussi@gmail.com
+P@sssw00rdForCSI
