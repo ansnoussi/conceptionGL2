@@ -1,0 +1,33 @@
+******************** Debut **********************
+Bonjour Tout le Monde.
+
+Aujourd'hui nous allons vous presenter notre projet de Conception des systemes d'informations intitulé "Systeme Informatique de Domotique".
+
+On passe tout d'abord pour présenter le plan de notre présentation : 
+
+D'abord, on va introduire le theme Domotique pour vous mettre chers présents dans le cadre de notre projet.
+
+On passera ensuite pour presenter les besoins de notre projet suivi de la partie Conception ou nous avons utilisé le formalisme UML pour décrire notre système.
+
+Après ça , nous allons entamné la partie Realisation qui portera principalemet sur la vue statique du système et nous representerons le site Web et l'application Mobile que nous l'avons developpé.
+
+Enfin, On arrivera à la Conclusion pour récapituler quelques points du projet et donner quelques futurs perspectives.
+
+********************* Introduction ***********************
+C'est quoi la domotique ????? 
+En fait, le mot Domotique est le composé de deux mots ... Domus .. un mot Latin qui signifie Domicile ET Informatique
+Le Domotique est donc un ensemble des objets connectés d'un maison , il se base sur l'ensemble des techniques de l'informatique, de l'electronique, de physique ,d'automatisme et des télécommunications.
+
+Quatre crénaux principaux sont ainsi visés par la domotique. Ce sont :
+
+la santé, la sécurité ( comme la mise en place d'alarmes, de caméras IP ou d'autres équipements permettant la télésurveillance)
+le confort de vie (la cafetière fait le café automatiquement tous les jours à 8h du matin, etc)
+les économies d'énergies (régulation du chauffage, lancement de certaines tâches couteuse en énergies, etc)
+
+Passons maintenant à présenter quelques informations et statistiques du domaine de domotique.
+
+D'apres vous que represente .........................
+
+Passons maintenant à présenter les besoins attendus de notre projet...................
+
+
